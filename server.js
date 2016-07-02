@@ -9,7 +9,7 @@ require('dotenv').config({
   silent: true
 });
 var app = express();
-mongo.MongoClient.connect(process.env.MONGOLAB_URI || 'mongodb://localhost:27017/url-shortener', function(err, db) {
+mongo.MongoClient.connect(process.env.MONGOLAB_URI || 'mongodb://dfghj44444:44wxmsctc@ds040349.mlab.com:40349/shorturlxm', function(err, db) {
 
   if (err) {
     throw new Error('Database failed to connect!');
